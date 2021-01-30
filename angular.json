@@ -89,7 +89,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         },
         "lint": {
@@ -120,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "book"
+  "defaultProject": "book",
+  "cli": {
+    "analytics": false
+  }
 }
